@@ -173,7 +173,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:  2rem 5rem;
+    padding:  3rem 5rem;
 }
 .text-container{
     width: 50%;
@@ -182,8 +182,54 @@ nav a{
     background: url("./Images/container-4-img.jpg");
     background-position: center;
     background-size: cover;
-    width: 50%;
+    width: 70%;
     height: 500px;
+}
+.text-container > ul > li{
+    list-style: none;
+    font-size: 1.3rem;
+    line-height:  2rem;
+}
+.text-container>ul>li i{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+.text-container h4{
+    padding-right: 2rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 3rem;
+    padding: 2rem 2rem 2rem 0;
+}
+.text-container p{
+    font-weight: lighter;
+    line-height: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.container-5{
+    background: url("./Images/container5-main.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 8rem 0;
+}
+.container-5>div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-5>div h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: lighter;
+    padding-bottom: 1.5rem;
+}
+.container-5>div p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 4.1rem;
+    line-height: 2rem;
 }
 
 @media (max-width: 904px){
@@ -282,14 +328,59 @@ nav a{
     }
     .img-container{
         width: 100%;
+        margin-top: 2rem;
+    }
+    .text-container>ul>li{
+        font-size: 1.1rem;
+    }
+    .container-5>div {
+        width: 100%;
+    }
+
+    .container-5>div h1 {
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .container-5>div p {
+        font-size: 1rem;
+        padding: 0 1rem;
+        line-height: 1rem;
+    }
+    .container-5 {
+        padding: 5rem 0;
     }
 }
-@media (min-width: 905px) and (max-width: 1020px){
+@media (min-width: 905px) and (max-width: 1024px){
     nav a{
         font-size: .9rem;
     }
     .logo{
         font-size: 1rem;
+    }
+    .text-container h4 {
+        padding-right: 2rem;
+        font-size: 1.8rem;
+        font-weight: lighter;
+        line-height: 2rem;
+        padding: 2rem 2rem 1.5rem 0;
+    }
+
+    .text-container p {
+        font-weight: lighter;
+        line-height: 1.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+    .text-container>ul>li {
+        list-style: none;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .text-container>ul>li i {
+        color: var(--primary-color);
+        font-size: 1.2rem;
     }
     
 }
