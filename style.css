@@ -304,7 +304,7 @@ nav a{
 
 .product-details p{
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: .8rem;
     
 }
 .delivery{
@@ -526,9 +526,5 @@ nav a{
         font-weight: lighter;
     }
 
-    .product-details p {
-        font-weight: lighter;
-        font-size: .8rem;
-    }
     
 }
