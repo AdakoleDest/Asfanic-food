@@ -5,13 +5,14 @@ const navBtn2 = document.querySelector("#nav-btn-cancel")
 
 
 navBtn1.onclick = function(){
-    sideBarMenu.style.display = "block";
+    sideBarMenu.style.height = "310px";
+    sideBarMenu.style.transition = "height 0.5s ease";
     navBtn1.style.display = "none";
     navBtn2.style.display = "block";
 }
 
 navBtn2.onclick = function(){
-    sideBarMenu.style.display = "none";
+    sideBarMenu.style.height = "0";
     navBtn1.style.display = "block";
     navBtn2.style.display = "none";
 }

@@ -269,11 +269,12 @@ nav a{
         padding: 1.2rem;
     }
     .mobile-nav {
-        display: none;
+        display: block;
         position: absolute;
         list-style: none;
         top: 5.8rem;
         left: 0;
+        height: 0;
         overflow-y: scroll;
         padding-left: 1rem;
         background:rgb(18, 18, 18);
